@@ -1,0 +1,67 @@
+================================================================================
+🚀 SMART TRANSFORMER MONITORING - LIENS D'ACCÈS
+================================================================================
+
+📱 FRONTEND (Interface Web)
+──────────────────────────────────────────────────────────────────────────────
+URL: http://localhost:5173
+Port: 5173
+Status: ✅ EN COURS D'EXÉCUTION
+
+🔧 BACKEND (API REST)
+──────────────────────────────────────────────────────────────────────────────
+URL: http://localhost:8081
+Port: 8081
+Status: ✅ EN COURS D'EXÉCUTION
+
+🔐 IDENTIFIANTS DE CONNEXION
+──────────────────────────────────────────────────────────────────────────────
+ADMIN:
+  Email: admin@steg.tn
+  Password: admin123
+  Rôle: ADMIN (accès complet)
+
+SUPERVISOR:
+  Email: supervisor@steg.tn
+  Password: supervisor123
+  Rôle: SUPERVISOR (gestion utilisateurs, postes, transformateurs)
+
+AGENT:
+  Email: agent@steg.tn
+  Password: agent123
+  Rôle: AGENT (lecture seule)
+
+💾 BASE DE DONNÉES
+──────────────────────────────────────────────────────────────────────────────
+Host: localhost
+Port: 5432
+Database: steg_monitoring
+Username: steg_admin
+Password: steg_password
+Type: PostgreSQL
+
+📍 MODULES DISPONIBLES
+──────────────────────────────────────────────────────────────────────────────
+✅ Authentification JWT
+✅ Gestion Utilisateurs
+✅ Gestion Postes (Substations)
+✅ Gestion Transformateurs
+✅ Dashboards (Admin, Supervisor, Agent)
+✅ Rôles et Permissions
+⚠️  Mesures IoT (backend créé, UI en cours)
+
+🌐 ACCÈS DIRECT
+──────────────────────────────────────────────────────────────────────────────
+Frontend:      http://localhost:5173
+Backend:       http://localhost:8081
+API Postes:    http://localhost:8081/api/postes
+API Users:     http://localhost:8081/api/users
+API Transfo:   http://localhost:8081/api/transformateurs
+
+🧪 TEST RAPIDE
+──────────────────────────────────────────────────────────────────────────────
+1. Ouvre http://localhost:5173 dans ton navigateur
+2. Connecte-toi avec admin@steg.tn / admin123
+3. Explore les modules disponibles
+
+================================================================================
